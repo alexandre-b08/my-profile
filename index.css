@@ -1,0 +1,145 @@
+h1{
+	font-size: 50px;
+	text-align: center;
+	color: orange;
+	font-style: italic;
+}
+p{
+	text-align: center;
+
+}
+
+h2{
+	font-size: 25px;
+	text-align: center;
+	color: blue;
+	font-style: italic;
+}
+
+body{
+	font-size: 17px;
+	background-color: rgb(240,240,240);
+	text-decoration-color: bold black;
+	align-items: center;
+	font-family: Calibri;
+	font-style: italic;
+	margin-left: 0%;
+	margin: 0 auto;
+
+}
+
+
+.info{
+	display: center;
+	border-image: 20px;
+	text-align: center;
+	border-radius: 50px;
+	padding: 15px 30px;
+	margin: 0 auto;
+	box-shadow: 6px 8px 8px rgba(0,0,0,0.2);
+	align-items: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: white;
+	margin-bottom: 10px;
+	justify-content: space-between;
+}
+
+img{
+	border-radius: 80%;
+	vertical-align: left;
+}
+
+
+.flex-container{
+	display: flex;
+	justify-content: center;
+	border: 0px solid;
+	justify-content: space-between;
+}
+
+
+.titre{
+	border-color: black;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	padding: 10px;
+}
+
+.titre2{
+	border-color: black;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+.profil{
+	padding: 10px;
+	background-color: blue;
+	color: orange;
+	text-decoration: none;
+	font-weight: bolder;
+	padding-bottom: 5px;
+	border-radius: 25%;
+	width: 200px;
+}
+
+.bouton: hover{
+	box-shadow: 5px 5px 10px;
+}
+
+
+
+.imgvoyage{
+	align-items: center;
+	margin: 0 auto;
+}
+
+.imgcamera{
+	align-items: center;
+	margin: 0 auto;
+}
+
+.imgreseaux{
+	align-items: center;
+	margin: 0 auto;
+}
+
+.imgfitness{
+	align-items: center;
+	margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    
+  }
+
+  img {
+  	width: 30%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    
+  }
+  img{
+  	width: 30%;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    
+
+  }
+  img{
+  	width: 30%;
+  }
+}
